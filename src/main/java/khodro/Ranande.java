@@ -1,0 +1,4 @@
+package khodro;
+
+class Ranande {
+}

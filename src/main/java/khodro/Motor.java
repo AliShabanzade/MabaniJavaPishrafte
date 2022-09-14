@@ -1,22 +1,17 @@
 package khodro;
-
-public class Motor {
-
-    boolean ayaRoshanAst;
+// Motor is a Khodro : Motor cycle is a vehicle / Liskove substitution principle
+public class Motor extends Khodro{
 
 
-    public void roshan() {
-
-        ayaRoshanAst = true;
-    }
-
-    void khamoush() {
-
-        ayaRoshanAst = false;
-    }
 
     public boolean ayaDarHaleHarkatAst() {
+
         return ayaRoshanAst;
+    }
+
+    @Override
+     public String getMark(){
+        return "Motor";
     }
 }
 

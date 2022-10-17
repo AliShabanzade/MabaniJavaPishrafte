@@ -35,10 +35,7 @@ public class Ranande {
 
     }
 
-    public  class SomeNestedClass {
-        System.out.print("print test for nested class error"); // Ostad Namdare Aziz Chera in dastor print Khta midehad?
 
-    }
 
 
 

@@ -5,8 +5,9 @@ import khodro.Khodro;
 import khodro.Ranande;
 import khodro.SandoghDar;
 
-// Mashin is a Khodro : car is a vehicle
-public class Mashin extends Khodro implements Gearbox, SandoghDar { // Dry : don t repeat yourself
+// Mashin is a Khodro : car is a vehicle           // Dry : don t repeat yourself
+public class Mashin extends Khodro implements Gearbox, SandoghDar {
+    public static int tedadeForoosh;
 
 
     private boolean ayaDarBazAst;

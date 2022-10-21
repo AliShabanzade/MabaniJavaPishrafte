@@ -1,9 +1,11 @@
 package khodro;
 
+import static java.lang.System.out;
+
 public abstract class Khodro {
 
     protected void protectedMethod(){
-        System.out.println("this method is protected");
+        out.println("this method is protected");
     }
 
     protected boolean ayaRoshanAst;
